@@ -9,6 +9,12 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
     }
 
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
     @font-face {
         font-family: "Helvetica";
         src: url(${Helvetica}) format('truetype');

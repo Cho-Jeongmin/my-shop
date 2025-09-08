@@ -1,35 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div``;
-
-export const Top = styled.div`
-  background-color: #f5f5f5;
-  height: 36px;
-  padding: 0 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`;
-
-export const Buttons = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-export const Button = styled.div`
-  font-size: 12px;
-  font-family: "Helvetica";
-  font-weight: 500;
-  cursor: pointer;
-`;
-
-export const Bar = styled.div`
-  border-left: 1px solid black;
-  height: 12px;
-  margin: 12px;
-`;
-
-export const Middle = styled.div`
+export const Container = styled.div`
   height: 60px;
   padding: 0 48px;
   display: flex;
@@ -127,9 +98,4 @@ export const IconWrapper = styled.div`
   &:last-of-type {
     margin-left: -12px;
   }
-`;
-
-export const Bottom = styled.div`
-  background-color: #f5f5f5;
-  height: 60px;
 `;
